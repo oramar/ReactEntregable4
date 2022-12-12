@@ -1,0 +1,52 @@
+
+.App__header{
+  display: flex;
+  justify-content:space-around ;
+  padding-top: 2em;
+  gap: 20em;
+  flex-wrap: wrap;
+}
+.form-container{
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  background-color: #0002;
+  z-index: 10;
+  top: 0;   
+  backdrop-filter: blur(2px);
+  transition: transform 200ms ease ;
+  width: 100%;
+  min-height: 100vh;  
+
+}
+.close__form{
+  transform: translatex(-100%);
+}
+
+
+.App__btn{
+  background-color: #555a88;
+  font-size: 1.2rem;
+  color: white;
+  padding: 0.5em 2em;
+  border-radius: 10px;
+}
+.App__btn:hover{
+  background-color: #4452d3;
+  font-size: 1.3rem;
+  transition: 100ms ease;
+}
+.user-container{
+  display: grid;
+  grid-template-columns: repeat(auto-fit,300px);
+  width: 100%;
+  max-width: 1200px;
+  gap: 2em;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 3em;
+}
+
+
