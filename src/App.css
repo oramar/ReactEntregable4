@@ -3,7 +3,7 @@
   display: flex;
   justify-content:space-around ;
   padding-top: 2em;
-  gap: 20em;
+  gap: 2em;
   flex-wrap: wrap;
 }
 .form-container{
