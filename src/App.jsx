@@ -6,7 +6,7 @@ import useCrudUsers from './hooks/useCrudUsers'
 
 function App() {
   const [updateInfo, setUpdateInfo] = useState()
-  const [closeForm, setCloseForm] = useState(true)
+  const [closeForm, setCloseForm] = useState(false)
   const { users, getAllUsers, createNewUser, deleteUserById, updateUserById } = useCrudUsers()
 
   useEffect(() => {

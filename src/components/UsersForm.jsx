@@ -26,7 +26,7 @@ const UsersForm = ({createNewUser,updateUserById,updateInfo,setUpdateInfo,setClo
     }
     
     return (
-        <form className='form close__form' onSubmit={handleSubmit(submit)}>
+        <form className='form ' onSubmit={handleSubmit(submit)}>
             <div onClick={cerrarLimpiar} className="form__x">X</div>
             <h2 className='form__title'>{updateInfo?'update User':'Create new User'}</h2>
             
